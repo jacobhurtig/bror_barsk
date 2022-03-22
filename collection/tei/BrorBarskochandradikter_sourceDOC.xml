@@ -89,12 +89,12 @@
             points="50,25 50,166 441,170 904,537 871,1141 1037,1145 1121,575 1687,666 1858,366 1579,112 962,245 462,16">
          <line>häpp, häpp</line>
          <line>hänsynslösa</line>
-            <figure>
-            <figDesc>
-               Utgår från häpp, häpp hänsynslösa, h:n i fallande formation som utmynnar i en tratt av ä:n med viss överlappning. Utsmetade h:n i lodrät linje med utgångspunkt mellan h:n och ä:n.  
-            </figDesc>   
-            </figure>
-            <damage rend="avsikligt utsmetning"></damage>
+         <figure>
+           <figDesc>
+             Utgår från häpp, häpp hänsynslösa, h:n i fallande formation som utmynnar i en tratt av ä:n med viss överlappning. Utsmetade h:n i lodrät linje med utgångspunkt mellan h:n och ä:n.  
+           </figDesc>   
+         </figure>
+         <damage rend="avsikligt utsmetning"></damage>
          </zone>
          <zone xml:id="zone_faltvabel" points="346,491 346,641 766,645 766,491">
          <line>fältväbel</line>
