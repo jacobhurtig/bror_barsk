@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Essäer om Bror Barsk och andra dikter</title>
+            <author>Bengt Emil Johnson</author>
+            <respStmt>
+               <resp>Digitalisering av original</resp>
+               <name>Jacob Hurtig</name>
+            </respStmt>
+         </titleStmt>
+         <extent>Slutlig filstorlek???</extent>
+         <publicationStmt>
+            <publisher>CBH Förlag</publisher>
+            <pubPlace>
+               <address>
+                  <orgName>CBH Holdings</orgName>
+                  <street>Barskgatan 64</street>
+                  <settlement>Borås-Tingsryd</settlement>
+                  <postCode>1964</postCode>
+                  <country>Sverige</country>
+               </address>
+            </pubPlace>
+            <distributor>Canvas, via Högskolan i Borås</distributor>
+            <availability>
+               <licence target="intern länk till slutsida">
+                  <p>Tillgänglig via en intern <ref target="intern länk till slutsida"
+                     >hemsida</ref>.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Essäer om Bror Barsk och andra dikter</title>
+                  <author>Bengt Emil Johnson</author>
+                  <imprint>
+                     <publisher>Bonnier</publisher>
+                     <pubPlace>Stockholm</pubPlace>
+                     <date>1964</date>
+                     <biblScope unit="sidor" n="9">Sida 9</biblScope>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Ett utsnitt av boken har digitaliserats, och TEI-kodningen utförts, i samband med ett
+               projektarbete i kursen "Digitizing Cultural Heritage Material", inom ramen för
+               masterprogrammen i biblioteks- och informationsvetenskap vid Högskolan i Borås.</p>
+         </projectDesc>
+         <editorialDecl>
+            <normalization>
+               <p/>
+            </normalization>
+            <interpretation>
+               <p/>
+            </interpretation>
+         </editorialDecl>
+         <samplingDecl>
+            <p>Bokens första dikt valdes som exempelsida, för att demonstrera
+               digitaliseringsprocessen i sin helhet, i relation till verket, att repliceras.</p>
+         </samplingDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://libris.kb.se/subjecttree.jsp">Hc.03</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-03-10"><persName>Anton Carlander Borgström</persName> created this
+               TEI-file..</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface lry="800" lrx="566" uly="0" ulx="0">
+         <graphic url="Bildfiler/bror_barsk-9.png"/>
+         <zone xml:id="zone_happ_happ"
+            points="50,25 50,166 441,170 904,537 871,1141 1037,1145 1121,575 1687,666 1858,366 1579,112 962,245 462,16">
+         <line>häpp, häpp</line>
+         <line>hänsynslösa</line>
+            <figure>
+            <figDesc>
+               Utgår från häpp, häpp hänsynslösa, h:n i fallande formation som utmynnar i en tratt av ä:n med viss överlappning. Utsmetade h:n i lodrät linje med utgångspunkt mellan h:n och ä:n.  
+            </figDesc>   
+            </figure>
+            <damage rend="avsikligt utsmetning"></damage>
+         </zone>
+         <zone xml:id="zone_faltvabel" points="346,491 346,641 766,645 766,491">
+         <line>fältväbel</line>
+         <line>(tvättbjörn)</line>
+         </zone>
+         <zone xml:id="zone_hackla" points="54,637 75,766 354,1220 541,791 541,604">
+         <line>häckla</line>
+         <line>läppja, läppja</line>
+         <line>ppja ppja</line>
+         <line>ppjappja</line>
+         <line>ppjappja</line>
+         <line>pp???</line>
+         <line>???</line>
+         <line>??</line>
+         <line>?</line>
+         </zone>
+         <zone xml:id="streck_1" points="200,1075 779,1066 779,1154 1091,1216 1079,1291 146,1125">
+           <damage rend="avsikligt utsmetning"></damage>
+         </zone>
+         <zone xml:id="zone_kunde_inte"
+            points="1137,704 1137,795 1837,795 1841,854 1971,854 1966,679">
+         <line>kunde inte skrämma mej</line>
+         <line>m</line>
+         </zone>
+         <zone xml:id="zone_ovanfor_gardarna"
+            points="879,1354 875,1545 1550,1537 1554,1316 866,1320">
+         <line>ovanför gårdarna,</line>
+         <line>nedre högtiden,</line>
+         <line>placerad på högkant.</line>
+         </zone>
+         <zone xml:id="zone_pyret" points="562,1262 558,1450 729,1450 725,1216 550,1212">
+         <line>Pyret</line>
+         <line>granit</line>
+         </zone>
+         <zone xml:id="zone_de_e_taskit"
+            points="1750,862 1733,1604 587,1604 591,1700 1896,1675 1887,912 1800,816">
+         <line>m</line>
+         <line>d</line>
+         <line>oo</line>
+         <line>o</line>
+         <line>m</line>
+         <line>d</line>
+         <line>o</line>
+         <line>d</line>
+         <line>m</line>
+         <line>m</line>
+         <line>d</line>
+         <line>o</line>
+         <line>dom</line>
+         <line>dom</line>
+         <line>de e taskit bara för att man känner igen dom</line>
+         </zone>
+         <zone xml:id="zone_figure_1"
+            points="54,1316 66,1941 287,1937 271,1795 421,1683 654,1604 641,1491 546,1487 541,1129 350,1429 258,1154">
+            <unclear rend="suddigt och överlappande"></unclear>
+         </zone>
+         <zone xml:id="zone_hoplappade"
+            points="729,3391 708,1866 237,1866 241,1762 975,1766 1687,1816 1691,2325 1696,2395 1721,3370">
+         <line>hoplappade med sovjava</line>
+         <line>ja va i helvete härsknare</line>
+         <line>dubbel operation motsols inuti</line>
+         <line>svårare och sa till och slira</line>
+         <line>fram till dom andra och till</line>
+         <line>vänster och och till vänster</line>
+         <line>och svetsiga SMÅ SMÅ vansinnigt</line>
+         <line>läckra och spetsprydda (svarta</line>
+         <line>och fläckiga) fettglänsande</line>
+         <line>pärlemor-vantar alla för gummi</line>
+         <line>brända, bestämmer sig, falskare,</line>
+         <line>dova ljud ifrån dungen, gök ef- - - - ------- </line>
+         <line> efter</line>
+         <line>gök och slå till så det</line>
+         <line>dunsar i skinnet och vattnet</line>
+         <line>tvättlapp. tvättlapp, tvättlapp.</line>
+         <line>och då kan dom förstå att de</line>
+         <line>vattna sej överst beräknande</line>
+         <line>ettrig, småsnål och barsk,</line>
+         <line>fyra gånger närmare och närmanden</line>
+         <line>yngre och förnuftigare</line>
+         <line>handflatan,handflatan,</line>
+         <line>sen kom</line>
+         <line>han in de va brorsan som styrde</line>
+         <line>va va de ni ville va de va ni</line>
+         <line>ville va de va</line>
+         <line>och tre dagar senare</line>
+         <line>bara tre dagar senare senare,</line>
+         <line>senare på kvällen när dom</line>
+         <line>kommit</line>
+         </zone>
+         <zone xml:id="zone_streck_2" points="1696,2337 1929,2304 1925,1954 2004,1958 2000,2308 2250,2320 2250,2395 2004,2391 2004,2429 1904,2429 1904,2387 1691,2391">
+         <damage rend="avsikligt utsmetning"></damage>
+         </zone>
+         <zone xml:id="zone_nylackerade" points="412,3400 412,3466 1979,3475 1979,3395">
+         <line>”nylackerade, illa uniformerade-stackars horor…”</line>
+         </zone>
+         <zone xml:id="zone_kvartalskansli" points="25,1954 21,2025 521,2020 516,1945">
+         <line>kvartalskansli</line>
+         </zone>
+         <zone xml:id="zone_falstaff" points="46,2083 21,2625 79,2625 366,2270 366,2062">
+         <line>Falstaff</line>
+            <unclear rend="suddigt och överlappande"></unclear>
+         </zone>
+         <zone xml:id="zone_te_armar" points="204,2508 166,2579 441,2595 462,2508">
+         <line>te-armar</line>
+         </zone>
+         <zone xml:id="zone_s_figur"
+            points="662,3216 737,3208 725,2916 575,2650 537,2716 491,2566 404,2629 487,2929 616,3020">
+         <line>eeeeeeeeee</line>
+         <line>se</line>
+         <line>mester</line>
+         <line>tt</line>
+         <line>tttttttttttttttttt</line>
+         </zone>
+         <zone xml:id="zone_a" points="79,2966 154,2966 154,3062 75,3062">
+         <line>å</line>
+         </zone>
+         <zone xml:id="zone_pa_smallen" points="41,3241 37,3462 383,3450 396,3233">
+         <line>på smällen</line>
+         <line>på jästen</line>
+         <line>på burken</line>
+         <line>på söndag</line>
+         </zone>
+         <zone xml:id="zone_penetrera" points="1841,2745 1841,2816 2158,2812 2162,2741">
+         <line>penetrera</line>
+         </zone>
+         <zone xml:id="zone_nagot_under" points="2258,1783 2233,3341 2462,3325 2471,1775">
+         <line>något under sjudande dubbelbyxor, spårljusets vänner,</line>
+         <line>tidigare skadade och blåbenta uppstroppar,</line>
+         <line>kommer över ängarna, skadeglada, hoppsturska, ingendera</line>
+         <line>minskande på bittersta fy, Hubert, tvättlina,</line>
+         </zone>
+         <zone xml:id="zone_figure_2" points="2225,8 2241,1004 2208,1008 2200,1804 2504,1770 2491,0">
+         <unclear rend="suddigt och överlappande"></unclear>
+         </zone>
+      </surface>
+   </sourceDoc>
+</TEI>
