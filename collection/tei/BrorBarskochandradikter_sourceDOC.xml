@@ -6,11 +6,15 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Essäer om Bror Barsk och andra dikter</title>
+            <title>Essäer om Bror Barsk och andra dikter, digitaliserad version</title>
             <author>Bengt Emil Johnson</author>
             <respStmt>
                <resp>Digitalisering av original</resp>
-               <name>Jacob Hurtig</name>
+               <name xml:id="digitise">Jacob Hurtig</name>
+            </respStmt>
+            <respStmt>
+               <resp>Transkribering av original</resp>
+               <name xml:id="transcribe">Anton Carlander Borgström</name>
             </respStmt>
          </titleStmt>
          <extent>Slutlig filstorlek???</extent>
@@ -36,8 +40,8 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title>Essäer om Bror Barsk och andra dikter</title>
-                  <author>Bengt Emil Johnson</author>
+                  <title xml:id="source_title">Essäer om Bror Barsk och andra dikter</title>
+                  <author xml:id="source_author">Bengt Emil Johnson</author>
                   <imprint>
                      <publisher>Bonnier</publisher>
                      <pubPlace>Stockholm</pubPlace>
@@ -84,7 +88,7 @@
    </teiHeader>
    <sourceDoc>
       <surface lry="800" lrx="566" uly="0" ulx="0">
-         <graphic url="Bildfiler/bror_barsk-9.png"/>
+         <graphic xml:id="sid_9" url="../collection/img/bror_barsk-9.png"/>
          <zone xml:id="zone_happ_happ"
             points="50,25 50,166 441,170 904,537 871,1141 1037,1145 1121,575 1687,666 1858,366 1579,112 962,245 462,16">
          <line>häpp, häpp</line>
