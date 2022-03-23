@@ -206,7 +206,7 @@
          </zone>
          <zone xml:id="zone_s_figur"
             points="662,3216 737,3208 725,2916 575,2650 537,2716 491,2566 404,2629 487,2929 616,3020">
-         <line>eeeeeeeeee</line>
+         <line><unclear reason="överlappande, suddigt">eeeeeeeeee</unclear></line>
          <line>se</line>
          <line>mester</line>
          <line>tt</line>
@@ -224,7 +224,7 @@
          <zone xml:id="zone_penetrera" points="1841,2745 1841,2816 2158,2812 2162,2741">
          <line>penetrera</line>
          </zone>
-         <zone xml:id="zone_nagot_under" points="2258,1783 2233,3341 2462,3325 2471,1775">
+         <zone xml:id="zone_nagot_under" points="2258,1783 2233,3341 2462,3325 2471,1775" style="transform:rotateZ(90deg)">
          <line>något under sjudande dubbelbyxor, spårljusets vänner,</line>
          <line>tidigare skadade och blåbenta uppstroppar,</line>
          <line>kommer över ängarna, skadeglada, hoppsturska, ingendera</line>
