@@ -35,6 +35,15 @@ h3 {
     text-align: center;    
 }
 
+img {
+    width: 600px;
+}
+
+a {
+      color: darkgrey;
+}
+
+
 footer {
     border-top: 1px solid black;
     padding-top: 1vw;

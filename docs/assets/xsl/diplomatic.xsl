@@ -3,16 +3,14 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-
+    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab-->
-                    frankensTEIn: diplomatic view
+                    Essäer om Bror Barsk och andra dikter
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -26,44 +24,70 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:TEI//tei:title"/>
+                        <xsl:apply-templates select="//tei:TEI//tei:title[@xml:id='source_title']"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Om</a> |
+                    <a href="text_image.html">Bild/text</a> |
+                    <a href="image.html">Bild</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="container">
-                    <!-- define a row layout with bootstrap's css classes (two columns) -->
+                        <!-- define a row layout with bootstrap's css classes (two columns) -->
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                               <article id="scan">
-                                   <h3>Image</h3>
-                                <img width="400">
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_full']/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                    </xsl:attribute>
-                                </img>
-                               </article>
+                                <article id="thumbnail">
+                                    <img>
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic/@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="title">
+                                            <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic[@xml:id='sid_9']//tei:label"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic[@xml:id='sid_9']//tei:figDesc"/>
+                                        </xsl:attribute>
+                                    </img>
+                                </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
                                 <article id="transcription">
-                                    <h3>Transcription</h3>
-                                    <xsl:apply-templates select="//tei:TEI//tei:text"/>
+                                    <h3>Transkribering</h3>
+           <xsl:for-each select="//tei:line">
+               <xsl:value-of select="."/>
+           </xsl:for-each>
                                 </article>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <article id="details">
+                                <p>
+                                    <strong>Författare:</strong><br/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:author [@xml:id='source_author']"/>
+                                </p>
+                                <p>
+                                    <strong>Källtext publicerad:</strong><br/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:date"/>
+                                </p>
+                                <p>
+                                    <strong>Källtext publicerad av:</strong><br/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:publisher"/>
+                                </p>
+                                <p>
+                                    <strong>Transkriberat av:</strong><br/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='transcribe']"/>
+                                </p>
+                                <p>
+                                    <strong>Digitaliserat av:</strong><br/>
+                                    <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='digitise']"/>
+                                </p>
+                            </article>
                         </div>
                     </div>
                 </main>
@@ -76,7 +100,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2022.
                       </div>
                     </div>
                 </div>
@@ -91,8 +115,8 @@
     html-->
     <xsl:template match="tei:teiHeader"/>
 
-    <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
-    <xsl:template match="tei:lb">
+    <!-- turn tei linebreaks (line) into html linebreaks (br) -->
+    <xsl:template match="tei:line">
         <br/>
     </xsl:template>
     <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to

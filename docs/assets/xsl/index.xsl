@@ -29,9 +29,8 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Om</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="text_image.html">Bild/text</a> |
+                    <a href="image.html">Bild</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -68,13 +67,25 @@
                                 <div class="col-sm">
                                     <article id="details">
                                       <p>
-                                        <strong>Author:</strong><br/>
+                                        <strong>Författare:</strong><br/>
                                           <xsl:apply-templates select="//tei:TEI//tei:author [@xml:id='source_author']"/>
                                       </p>
+                                        <p>
+                                            <strong>Källtext publicerad:</strong><br/>
+                                            <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:date"/>
+                                        </p>
+                                        <p>
+                                            <strong>Källtext publicerad av:</strong><br/>
+                                            <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:publisher"/>
+                                        </p>
                                       <p>
-                                        <strong>Transcription by:</strong><br/>
+                                        <strong>Transkriberat av:</strong><br/>
                                           <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='transcribe']"/>
                                       </p>
+                                        <p>
+                                        <strong>Digitaliserat av:</strong><br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='digitise']"/>
+                                        </p>
                                     </article>
                                 </div>
                         </div>
