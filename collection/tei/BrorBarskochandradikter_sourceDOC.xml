@@ -198,19 +198,20 @@
          <line>kvartalskansli</line>
          </zone>
          <zone xml:id="zone_falstaff" points="46,2083 21,2625 79,2625 366,2270 366,2062">
-         <line>Falstaff</line>
-            <unclear rend="suddigt och överlappande"></unclear>
+         <line><unclear reason="suddigt, överlappande">F</unclear>alstaff</line>
+         <line><unclear reason="suddigt, överlappande">F</unclear><space quantity="5" unit="chars"/><unclear reason="suddigt och överlappande">ff</unclear></line>
+         
          </zone>
          <zone xml:id="zone_te_armar" points="204,2508 166,2579 441,2595 462,2508">
          <line>te-armar</line>
          </zone>
          <zone xml:id="zone_s_figur"
-            points="662,3216 737,3208 725,2916 575,2650 537,2716 491,2566 404,2629 487,2929 616,3020">
-         <line><unclear reason="överlappande, suddigt">eeeeeeeeee</unclear></line>
+            points="662,3216 737,3208 725,2916 575,2650 537,2716 491,2566 404,2629 487,2929 616,3020" style="transform:rotateZ(-90deg)">
+         <line><space quantity="7" unit="chars"/><unclear reason="överlappande, suddigt">eeeeeeeeee</unclear></line>
          <line>se</line>
          <line>mester</line>
          <line>tt</line>
-         <line>tttttttttttttttttt</line>
+         <line><unclear reason="överlappande, suddigt">tttttttttttttttttt</unclear></line>
          </zone>
          <zone xml:id="zone_a" points="79,2966 154,2966 154,3062 75,3062">
          <line>å</line>
