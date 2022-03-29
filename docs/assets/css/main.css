@@ -8,7 +8,7 @@ body {
   width: 100%;
 	}
 
-h1, h2, h3, nav, footer {
+h1, h2, h3, nav{
     text-align: center;
 }
 
@@ -30,9 +30,11 @@ h3 {
 }
 
 #details {
-    padding: 2vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1vw;
     margin: 1vw;
-    text-align: center;    
+    text-align: left;    
 }
 
 img {
@@ -47,7 +49,8 @@ a {
 footer {
     border-top: 1px solid black;
     padding-top: 1vw;
-    margin-top: 1vw;
+    margin: 1vw;
+    text-align: left;
 }
 
 .copyright {

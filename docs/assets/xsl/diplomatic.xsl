@@ -87,6 +87,10 @@
                                     <strong>Digitaliserat av:</strong><br/>
                                     <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='digitise']"/>
                                 </p>
+                                <p>
+                                    <strong>Kommentarer till transkriberingen:</strong>
+                                    <xsl:apply-templates select="//tei:TEI//tei:encodingDesc"/>
+                                </p>
                             </article>
                         </div>
                     </div>
