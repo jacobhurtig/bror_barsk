@@ -133,7 +133,7 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-
+    
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>

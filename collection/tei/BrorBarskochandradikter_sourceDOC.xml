@@ -60,38 +60,37 @@
          </projectDesc>
          <editorialDecl>
             <hyphenation>
-               <p>
-                  Bindesstreck har bibehållits och återgetts så som de återfinns i texten. Där skiljetecken använts för att åstadkomma en figur (zone_streck_2) 
-                  har åtskillnad gjorts på - och –, för att med det senare markera ett ihållande streck.
-               </p>
+               <p> Bindesstreck har bibehållits och återgetts så som de återfinns i texten. Där
+                  skiljetecken använts för att åstadkomma en figur (zone_streck_2) har åtskillnad
+                  gjorts på - och –, för att med det senare markera ett ihållande streck. </p>
             </hyphenation>
             <interpretation>
-               <p>
-                  En tolkning har gjorts och indirekt kommunicerats i och med upprättandet av zoner som delar in sidan i segment. Tolkningar har avsiktligt
-                  undvikits i beskrivningen av figurer i texten, med anledning av resonemang författaren fört om verket. I vissa fall har osäkra transkriberingar
-                  utförts på oläsliga och nästintill oläsliga rader, med hjälp av kontextuella ledtrådar. Där utsmetningar återfinns i texten har tolkningen
-                  gjorts att samtliga dessa är avsiktliga och beskrivits delvis via figureDesc som sådana, eller via damage-elementet (vars agent-attribut inte 
-                  tillåter andra värden än förbestämda, därför har rubbing använts med samma underliggande tolkning). 
-               </p>
+               <p> En tolkning har gjorts och indirekt kommunicerats i och med upprättandet av zoner
+                  som delar in sidan i segment. Tolkningar har avsiktligt undvikits i beskrivningen
+                  av figurer i texten, med anledning av resonemang författaren fört om verket. I
+                  vissa fall har osäkra transkriberingar utförts på oläsliga och nästintill oläsliga
+                  rader, med hjälp av kontextuella ledtrådar. Där utsmetningar återfinns i texten
+                  har tolkningen gjorts att samtliga dessa är avsiktliga och beskrivits delvis via
+                  figureDesc som sådana, eller via damage-elementet (vars agent-attribut inte
+                  tillåter andra värden än förbestämda, därför har rubbing använts med samma
+                  underliggande tolkning). </p>
             </interpretation>
             <normalization>
-               <p>
-                  Oläsliga och nästintill oläsliga rader har i vissa fall transkriberats utifrån bästa förmåga. Avsiktliga utsmetningar, överlappande bokstäver,
-                  m.m., har beskrivits med TEI-vokabulären. Dikten har delats in i zoner, vilka indikerar en läsföljd i högre grad än originalet.
-               </p>
+               <p> Oläsliga och nästintill oläsliga rader har i vissa fall transkriberats utifrån
+                  bästa förmåga. Avsiktliga utsmetningar, överlappande bokstäver, m.m., har
+                  beskrivits med TEI-vokabulären. Dikten har delats in i zoner, vilka indikerar en
+                  läsföljd i högre grad än originalet. </p>
             </normalization>
             <punctuation>
-               <p>
-                  Skiljetecken har bibehållits och återgetts så som de återfinns i texten. Kommateringen i texten saknar efterföljande mellanrum, vilket 
-                  har bibehållits.
+               <p> Skiljetecken har bibehållits och återgetts så som de återfinns i texten.
+                  Kommateringen i texten saknar efterföljande mellanrum, vilket har bibehållits.
                </p>
             </punctuation>
             <segmentation>
-               <p>
-                  Texten har delats in i zoner utifrån två principer: sjok som tycks höra samman och för att effektivt beskriva innehållet med TEI-vokabulären.
-                  I vissa fall, exempelvis zone_streck_2 och zone_streck_1, bidrar segmenteringen till att dela upp för ögat sammanhållna figurer i mindre 
-                  beståndsdelar.
-               </p>
+               <p> Texten har delats in i zoner utifrån två principer: sjok som tycks höra samman
+                  och för att effektivt beskriva innehållet med TEI-vokabulären. I vissa fall,
+                  exempelvis zone_streck_2 och zone_streck_1, bidrar segmenteringen till att dela
+                  upp för ögat sammanhållna figurer i mindre beståndsdelar. </p>
             </segmentation>
          </editorialDecl>
          <samplingDecl>
@@ -115,25 +114,26 @@
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
-      <surface lry="800" lrx="566" uly="0" ulx="0">
-         <graphic xml:id="sid_9" url="../collection/img/bror_barsk-9.png"/>
-         <zone xml:id="zone_happ_happ" points="50,25 50,166 441,170 904,537 871,1141 1037,1145 1121,575 1687,666 1858,366 1579,112 962,245 462,16">
+      <!-- Nu är bilden bytt till den som ska användas. Fick göra om alla zoner och klippa in dina transkiberingar på de "nya" zonerna. Kolla gärna igenom så inget är missat. -->
+      <surface lry="571.4" lrx="400" uly="0" ulx="0">
+         <graphic url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_04.jpeg" xml:id="sid_9"/>
+         <zone xml:id="zone_happ_happ" points="27,2 22,68 236,68 236,2"> 
             <line>häpp, häpp</line>
             <line>hänsynslösa</line>
          </zone>
-         <!-- Delade upp de här zonerna, som vi pratade om, koordinaterna är alltså fel. -->
-         <zone xml:id="h_a_moln" points="50,25 50,166 441,170 904,537 871,1141 1037,1145 1121,575 1687,666 1858,366 1579,112 962,245 462,16">
+         <zone xml:id="zone_h_a_moln"
+            points="243,27 243,102 447,277 534,295 504,475 504,627 556,622 556,515 618,284 881,363 938,336 1004,202 947,109 797,70 593,147">
             <figure>
-              <figDesc>
-                Abstrakt figur, moln av bokstäverna h och ä, överlappande h:n i underkant som avsiktligt utsmetats lodrätt.
-              </figDesc>   
+               <figDesc>
+                  Abstrakt figur, moln av bokstäverna h och ä, överlappande h:n i underkant som avsiktligt utsmetats lodrätt.
+               </figDesc>   
             </figure>
          </zone>
-         <zone xml:id="zone_faltvabel" points="346,491 346,641 766,645 766,491">
+         <zone xml:id="zone_faltvabel" points="188,268 188,336 420,338 418,270">
             <line>fältväbel</line>
             <line>(tvättbjörn)</line>
          </zone>
-         <zone xml:id="zone_hackla" points="54,637 75,766 354,1220 541,791 541,604">
+         <zone xml:id="zone_hackla" points="29,345 25,413 193,675 218,650 300,354">
             <line>häckla</line>
             <line>läppja,läppja</line>
             <line><space quantity="2" unit="chars"/>ppja ppja</line>
@@ -146,28 +146,28 @@
             <line><space quantity="2" unit="chars"/><gap quantity="1" unit="chars" reason="överlappande bokstäver"></gap></line>
          </zone>
          <!-- Kände att figDesc passade bäst här, valde damage på det andra strecket eftersom det ingick i andra tecken, där kanske vi får göra en anmärkning i encodingDesc om hur det förekommer avsiktlig damage (gick inte att ange vilket värde man ville för damage). -->
-         <zone xml:id="streck_1" points="200,1075 779,1066 779,1154 1091,1216 1079,1291 146,1125">
-           <figure>
-              <figDesc>
-                 Tre suddiga streck, avsiktlig utsmetning.
-              </figDesc>
-           </figure>
+         <zone xml:id="zone_streck_1" points="100,584 427,575 434,627 622,675 609,711 93,631">
+            <figure>
+               <figDesc>
+                  Tre suddiga streck, avsiktlig utsmetning.
+               </figDesc>
+            </figure>
          </zone>
-         <zone xml:id="zone_kunde_inte" points="1137,704 1137,795 1837,795 1841,854 1971,854 1966,679">
+         <zone xml:id="zone_kunde_inte" points="622,377 622,431 1004,431 1011,463 1088,459 1084,375">
             <line>kunde inte skrämma mej</line>
             <line>m</line>
          </zone>
-         <zone xml:id="zone_ovanfor_gardarna" points="879,1354 875,1545 1550,1537 1554,1316 866,1320">
+         <zone xml:id="zone_ovanfor_gardarna" points="468,738 468,840 843,836 838,711 463,718">
             <line>ovanför gårdarna,</line>
             <line>nedre högtiden,</line>
             <line>placerad på högkant.</line>
          </zone>
-         <zone xml:id="zone_pyret" points="562,1262 558,1450 729,1450 725,1216 550,1212" style="transform:rotateZ(-90deg)">
+         <zone xml:id="zone_pyret" points="297,665 304,800 395,797 391,668" style="transform:rotateZ(-90deg)">
             <line>Pyret</line>
             <line>granit</line>
          </zone>
          <zone xml:id="zone_de_e_taskit"
-            points="1750,862 1733,1604 587,1604 591,1700 1896,1675 1887,912 1800,816">
+            points="954,452 950,872 327,877 322,918 1034,922 1047,545 988,436">
             <line><space quantity="1" unit="chars"/><damage agent="rubbing"></damage>d</line>
             <line><space quantity="2" unit="chars"/><unclear reason="överlappande bokstäver"><lb/>oo</unclear></line>
             <line><space quantity="2" unit="chars"/>o</line>
@@ -181,14 +181,16 @@
             <line>dom</line>
             <line>de e taskit bara för att man känner igen dom</line>
          </zone>
-         <zone xml:id="zone_figure_1" points="54,1316 66,1941 287,1937 271,1795 421,1683 654,1604 641,1491 546,1487 541,1129 350,1429 258,1154">
+         <zone xml:id="zone_figure_1"
+            points="47,711 41,1054 145,1056 150,977 234,913 309,909 320,872 354,868 354,818 295,818 295,638 266,638 193,815 161,795 163,650 113,650 111,745 91,697">
             <figure>
                <figDesc>
                   Abstrakt figur av oläsliga, överlappande rader.
                </figDesc>
             </figure>
          </zone>
-         <zone xml:id="zone_hoplappade" points="729,3391 708,1866 237,1866 241,1762 975,1766 1687,1816 1691,2325 1696,2395 1721,3370">
+         <zone xml:id="zone_hoplappade"
+            points="395,1850 391,1020 145,1020 145,984 172,968 538,963 547,1000 922,1000 934,1354 943,1829 527,1829 527,1852">
             <line>hoplappade med sovjava</line>
             <line><space quantity="4" unit="chars"/>ja va i helvete härsknare</line>
             <line>dubbel operation motsols inuti</line>
@@ -221,16 +223,17 @@
             <line>kommit</line>
          </zone>
          <!-- Som sagt, enbart vissa värden tillåtna som agent för damage, får beskriva det i encodingDesc. -->
-         <zone xml:id="zone_streck_2" points="1696,2337 1929,2304 1925,1954 2004,1958 2000,2308 2250,2320 2250,2395 2004,2391 2004,2429 1904,2429 1904,2387 1691,2391">
+         <zone xml:id="zone_streck_2"
+            points="920,1279 1050,1259 1063,1100 1086,1100 1095,1265 1243,1268 1243,1302 1100,1297 1102,1320 1050,1322 1050,1293 927,1304">
             <line>>-<space quantity="1" unit="chars"/>-<space quantity="1" unit="chars"/>-<space quantity="1" unit="chars"/>--<damage agent="rubbing">-</damage>----–––––</line>
          </zone>
-         <zone xml:id="zone_nylackerade" points="412,3400 412,3466 1979,3475 1979,3395">
+         <zone xml:id="zone_nylackerade" points="220,1854 220,1902 1075,1906 1077,1854">
             <line>”nylackerade,illa uniformerade-stackars horor…”</line>
          </zone>
-         <zone xml:id="zone_kvartalskansli" points="25,1954 21,2025 521,2020 516,1945">
+         <zone xml:id="zone_kvartalskansli" points="16,1061 18,1102 288,1100 288,1063">
             <line>kvartalskansli</line>
          </zone>
-         <zone xml:id="zone_falstaff" points="46,2083 21,2625 79,2625 366,2270 366,2062">
+         <zone xml:id="zone_falstaff" points="29,1438 116,1365 177,1247 202,1131 25,1131 4,1402">
             <line><unclear reason="överlappande bokstäver">F</unclear>alstaff</line>
             <line><unclear reason="överlappande bokstäver">F</unclear><space quantity="5" unit="chars"/><unclear reason="överlappande bokstäver">ff</unclear></line>
             <line><unclear reason="överlappande bokstäver">F</unclear><space quantity="5" unit="chars"/><unclear reason="överlappande bokstäver">ff</unclear></line>
@@ -248,39 +251,40 @@
             <line><unclear reason="överlappande bokstäver">Fff</unclear></line>
             <line><unclear reason="överlappande bokstäver">Fff</unclear></line>
          </zone>
-         <zone xml:id="zone_te_armar" points="204,2508 166,2579 441,2595 462,2508">
+         <zone xml:id="zone_te_armar" points="243,1370 88,1370 86,1420 243,1418">
             <line>te-armar</line>
          </zone>
-         <zone xml:id="zone_s_figur" points="662,3216 737,3208 725,2916 575,2650 537,2716 491,2566 404,2629 487,2929 616,3020" style="transform:rotateZ(-90deg)">
+         <zone xml:id="zone_s_figur"
+            points="347,1754 334,1568 320,1645 252,1568 216,1409 288,1409 302,1468 354,1484 393,1581 409,1759" style="transform:rotateZ(-90deg)">
             <line><space quantity="7" unit="chars"/><unclear reason="överlappande bokstäver, suddigt">eeeeeeeeee</unclear></line>
             <line><space quantity="5" unit="chars"/>semester</line>
             <line><space quantity="9" unit="chars"/>tt</line>
             <line><unclear reason="överlappande bokstäver, suddigt">tttttttttttttttttt</unclear></line>
          </zone>
-         <zone xml:id="zone_a" points="79,2966 154,2966 154,3062 75,3062">
+         <zone xml:id="zone_a" points="41,1631 41,1672 79,1672 81,1629">
             <line>å</line>
          </zone>
-         <zone xml:id="zone_pa_smallen" points="41,3241 37,3462 383,3450 396,3233">
+         <zone xml:id="zone_pa_smallen" points="25,1761 218,1759 200,1884 27,1884">
             <line>på smällen</line>
             <line>på jästen</line>
             <line>på burken</line>
             <line>på söndag</line>
          </zone>
-         <zone xml:id="zone_penetrera" points="1841,2745 1841,2816 2158,2812 2162,2741">
+         <zone xml:id="zone_penetrera" points="1009,1500 1006,1531 1184,1531 1181,1493">
             <line>penetrera</line>
          </zone>
-         <zone xml:id="zone_nagot_under" points="2258,1783 2233,3341 2462,3325 2471,1775" style="transform:rotateZ(90deg)">
+         <zone xml:id="zone_nagot_under" points="1341,968 1227,968 1218,1795 1338,1815" style="transform:rotateZ(90deg)">
             <line>något under sjudande dubbelbyxor,spårljusets vän-</line>
             <line>ner,tidigare skadade och blåbenta uppstroppar,</line>
             <line>kommer över ängarna,skadeglada,hoppsturska,ingen-</line>
             <line>dera minskande på bittersta fy,Hubert,tvättlina,</line>
          </zone>
-         <zone xml:id="zone_figure_2" points="2225,8 2241,1004 2208,1008 2200,1804 2504,1770 2491,0">
-         <figure>
-            <figDesc>
-               Oläsliga, suddiga, överlappande rader.
-            </figDesc>
-         </figure>
+         <zone xml:id="zone_figure_2" points="1236,2 1243,577 1241,581 1343,586 1338,0">
+            <figure>
+               <figDesc>
+                  Oläsliga, suddiga, överlappande rader.
+               </figDesc>
+            </figure>
          </zone>
       </surface>
    </sourceDoc>

@@ -42,13 +42,10 @@
                                <article id="thumbnail">
                                 <img>
                                     <xsl:attribute name="src">
-                                        <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic[@xml:id='sid_9']//tei:label"/>
+                                        <xsl:value-of select="test"/>
                                     </xsl:attribute>
                                     <xsl:attribute name="alt">
-                                        <xsl:value-of select="//tei:sourceDoc/tei:surface//tei:graphic[@xml:id='sid_9']//tei:figDesc"/>
+                                        <xsl:value-of select="test"/>
                                     </xsl:attribute>
                                 </img>
                                </article>
@@ -57,53 +54,53 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                   <p>
-                                    <strong>Description:</strong>
+                                    <strong>Om:</strong>
                                     <xsl:apply-templates select="//tei:TEI//tei:projectDesc"/>
                                   </p>
                                 </article>
                             </div>
                         </div>
                         <div class="row">
-                                <div class="col-sm">
-                                    <article id="details">
-                                      <p>
+                            <div class="col-sm">
+                                <article id="details">
+                                    <p>
                                         <strong>Författare:</strong><br/>
-                                          <xsl:apply-templates select="//tei:TEI//tei:author [@xml:id='source_author']"/>
-                                      </p>
-                                        <p>
-                                            <strong>Källtext publicerad:</strong><br/>
-                                            <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:date"/>
-                                        </p>
-                                        <p>
-                                            <strong>Källtext publicerad av:</strong><br/>
-                                            <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:publisher"/>
-                                        </p>
-                                      <p>
+                                        <xsl:apply-templates select="//tei:TEI//tei:author [@xml:id='source_author']"/>
+                                    </p>
+                                    <p>
+                                        <strong>Källtext publicerad:</strong><br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:date"/>
+                                    </p>
+                                    <p>
+                                        <strong>Källtext publicerad av:</strong><br/>
+                                        <xsl:apply-templates select="//tei:TEI//tei:sourceDesc//tei:publisher"/>
+                                    </p>
+                                    <p>
                                         <strong>Transkriberat av:</strong><br/>
-                                          <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='transcribe']"/>
-                                      </p>
-                                        <p>
+                                        <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='transcribe']"/>
+                                    </p>
+                                    <p>
                                         <strong>Digitaliserat av:</strong><br/>
                                         <xsl:apply-templates select="//tei:TEI//tei:name [@xml:id='digitise']"/>
-                                        </p>
-                                    </article>
-                                </div>
+                                    </p>
+                                </article>
+                            </div>
                         </div>
-                    </div>
+                        </div>
                 </main>
                 <footer>
-                <div class="row" id="footer">
-                  <div class="col-sm copyright">
-                  		<div class="copyright_logos">
-                  			<a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                  			    <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
-                  			</a>
-                  		</div>
-                  		<div class="copyright_text">
-                         2022 
-                      </div>
+                    <div class="row" id="footer">
+                        <div class="col-sm copyright">
+                            <div>
+                                <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
+                                    <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
+                                </a>
+                            </div>
+                            <div>
+                                2022.
+                            </div>
+                        </div>
                     </div>
-                </div>
                 </footer>
             </body>
         </html>
