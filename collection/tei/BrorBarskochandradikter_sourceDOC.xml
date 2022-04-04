@@ -114,11 +114,10 @@
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
-      <!-- Nu är bilden bytt till den som ska användas. Fick göra om alla zoner och klippa in dina transkiberingar på de "nya" zonerna. Kolla gärna igenom så inget är missat. -->
       <surface lry="571.4" lrx="400" uly="0" ulx="0">
          <graphic url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_04.jpeg" xml:id="sid_9"/>
          <zone xml:id="zone_happ_happ" points="27,2 22,68 236,68 236,2"> 
-            <line>häpp, häpp</line>
+            <line>häpp,häpp</line>
             <line>hänsynslösa</line>
          </zone>
          <zone xml:id="zone_h_a_moln"
@@ -145,7 +144,6 @@
             <line><space quantity="2" unit="chars"/><gap quantity="2" unit="chars" reason="överlappande bokstäver"></gap></line>
             <line><space quantity="2" unit="chars"/><gap quantity="1" unit="chars" reason="överlappande bokstäver"></gap></line>
          </zone>
-         <!-- Kände att figDesc passade bäst här, valde damage på det andra strecket eftersom det ingick i andra tecken, där kanske vi får göra en anmärkning i encodingDesc om hur det förekommer avsiktlig damage (gick inte att ange vilket värde man ville för damage). -->
          <zone xml:id="zone_streck_1" points="100,584 427,575 434,627 622,675 609,711 93,631">
             <figure>
                <figDesc>
@@ -222,7 +220,6 @@
             <line>nare,senare på kvällen när dom</line>
             <line>kommit</line>
          </zone>
-         <!-- Som sagt, enbart vissa värden tillåtna som agent för damage, får beskriva det i encodingDesc. -->
          <zone xml:id="zone_streck_2"
             points="920,1279 1050,1259 1063,1100 1086,1100 1095,1265 1243,1268 1243,1302 1100,1297 1102,1320 1050,1322 1050,1293 927,1304">
             <line>>-<space quantity="1" unit="chars"/>-<space quantity="1" unit="chars"/>-<space quantity="1" unit="chars"/>--<damage agent="rubbing">-</damage>----–––––</line>
