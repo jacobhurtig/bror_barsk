@@ -43,7 +43,9 @@ a {
       color: darkgrey;
 }
 
-
+td {
+    width: 400px;
+}
 footer {
     border-top: 1px solid black;
     padding-top: 1vw;
