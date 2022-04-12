@@ -35,7 +35,11 @@ h3 {
     margin: 1vw;
     text-align: left;    
 }
-
+#transcription {
+    border-top: 1px solid black;
+    padding: 1vw;
+    margin: 1vw;
+}
 img {
     width: 600px;
 }
@@ -61,8 +65,3 @@ footer {
 .copyright_logos, .copyright_text {
     display: inline;
 }
-
-.copyright_logo {
-		width: 1vw;
-		margin:.15vw;
-	}
