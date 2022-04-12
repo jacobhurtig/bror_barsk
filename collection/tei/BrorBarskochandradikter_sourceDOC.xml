@@ -46,7 +46,7 @@
                      <publisher>Bonnier</publisher>
                      <pubPlace>Stockholm</pubPlace>
                      <date>1964</date>
-                     <biblScope unit="sidor" n="9">Sida 9</biblScope>
+                     <biblScope unit="sidor" n="5, 9">Sidorna 5 och 9</biblScope>
                   </imprint>
                </monogr>
             </biblStruct>
@@ -95,7 +95,9 @@
          </editorialDecl>
          <samplingDecl>
             <p>Bokens första dikt valdes som exempelsida, för att demonstrera
-               digitaliseringsprocessen i sin helhet, i relation till verket, att repliceras.</p>
+               digitaliseringsprocessen i sin helhet, i relation till verket, att repliceras.
+               Titelsidan valdes som ett komplement, för att demonstrera webbsidans blädderfunktion,
+               i det fall att ytterligare dikter digitaliseras i framtiden.</p>
          </samplingDecl>
       </encodingDesc>
       <profileDesc>
@@ -114,6 +116,16 @@
       </revisionDesc>
    </teiHeader>
    <sourceDoc>
+      <surface lry="571.4" lrx="400" uly="0" ulx="0">
+            <graphic
+                url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_02.jpg"
+                xml:id="sid_5"/>
+            <zone xml:id="zone_bengt_emil" lry="248" lrx="171" uly="537" ulx="235"/>
+            <line>Bengt Emil Johnson</line>
+            <line>ESSÄER OM BROR BARSK och andra dikter</line>
+            <zone xml:id="zone_bonniers" lry="250" lrx="609" uly="331" ulx="641"/>
+            <line>BONNIERS</line>
+      </surface>
       <surface lry="571.4" lrx="400" uly="0" ulx="0">
          <graphic url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_04.jpeg" xml:id="sid_9"/>
          <zone xml:id="zone_happ_happ" points="8,1 12,31 96,31 95,2"> 
