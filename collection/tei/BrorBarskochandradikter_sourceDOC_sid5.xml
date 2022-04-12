@@ -118,7 +118,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
+    <sourceDoc>
         <surface lry="571.4" lrx="400" uly="0" ulx="0">
             <graphic
                 url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_02.jpg"
@@ -129,5 +129,5 @@
             <zone xml:id="zone_bonniers" lry="250" lrx="609" uly="331" ulx="641"/>
             <line>BONNIERS</line>
         </surface>
-    </facsimile>
+    </sourceDoc>
 </TEI>
