@@ -118,16 +118,16 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <sourceDoc>
+    <facsimile>
         <surface lry="571.4" lrx="400" uly="0" ulx="0">
             <graphic
                 url="../collection/img/Bror_Barsk_jpeg_derivat/Recto/bror_barsk_recto_02.jpg"
                 xml:id="sid_5"/>
-            <zone xml:id="zone_bengt_emil" lry="219" lrx="531" uly="181" ulx="258"/>
+            <zone xml:id="zone_bengt_emil" lry="248" lrx="171" uly="537" ulx="235"/>
             <line>Bengt Emil Johnson</line>
             <line>ESSÄER OM BROR BARSK och andra dikter</line>
-            <zone xml:id="zone_bonniers" lry="635" lrx="321" uly="614" ulx="256"/>
+            <zone xml:id="zone_bonniers" lry="250" lrx="609" uly="331" ulx="641"/>
             <line>BONNIERS</line>
         </surface>
-    </sourceDoc>
+    </facsimile>
 </TEI>
