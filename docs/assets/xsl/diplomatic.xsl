@@ -31,6 +31,7 @@
                     <a href="index.html">Om</a> |
                     <a href="text_image.html">Bild/text</a> |
                     <a href="image.html">Bild</a> |
+                    <a href="text.html">Text</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -57,8 +58,9 @@
                             <div class="col-sm">
                                 <article id="transcription">
                                     <h3>Transkribering</h3>
-           <xsl:for-each select="//tei:line">
+                                    <xsl:for-each select="//tei:line">
                <xsl:value-of select="."/>
+               <br/>
            </xsl:for-each>
                                 </article>
                             </div>
@@ -98,10 +100,8 @@
                 <footer>
                 <div class="row" id="footer">
                   <div class="col-sm copyright">
-                      <div>
-                        <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                          <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"/><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"/>
-                        </a>
+                      <div class="copyright_logos"> 
+                        © Bengt Emil Johnson
                       </div>
                       <div>
                          2022.
