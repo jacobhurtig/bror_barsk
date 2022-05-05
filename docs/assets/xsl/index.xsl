@@ -31,6 +31,7 @@
                     <a href="index.html">Om</a> |
                     <a href="text_image.html">Bild/text</a> |
                     <a href="image.html">Bild</a> |
+                    <a href="text.html">Text</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
