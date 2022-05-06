@@ -55,15 +55,6 @@
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
-                            <div class="col-sm">
-                                <article id="transcription">
-                                    <h3>Transkribering</h3>
-                                    <xsl:for-each select="//tei:line">
-               <xsl:value-of select="."/>
-               <br/>
-           </xsl:for-each>
-                                </article>
-                            </div>
                         </div>
                     </div>
                     <div class="row">
