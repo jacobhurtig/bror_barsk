@@ -93,6 +93,22 @@
                Titelsidan valdes som ett komplement, för att demonstrera webbsidans blädderfunktion,
                i det fall att ytterligare dikter digitaliseras i framtiden.</p>
          </samplingDecl>
+         <tagDesc>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="sourceDoc" occurs="2">
+                  Används istället för faksimil-elementet, för att inlemma transkriptionen med textens visuella element.
+               </tagUsage>
+               <tagUsage gi="figure" occurs="8">
+                  Används ihop med figDesc-elementet för att beskriva visuella element på sidan som en enhet, enligt de principer som beskrivs under interpretation-elementet, ovan.
+               </tagUsage>
+               <tagUsage gi="unclear" occurs="74">
+                  Används, ihop med reason-attributet, för att beteckna större eller mindre textmängder som o- eller svårläsliga. Reason-attributet bör användas inom en avgränsad vokabulär, så långt som möjligt.
+               </tagUsage>
+               <tagUsage gi="damage" occurs="4">
+                  Används för att beteckna avsiktliga skador, för att uppnå en visuell effekt.
+               </tagUsage>
+            </namespace>
+         </tagDesc>
       </encodingDesc>
       <profileDesc>
          <langUsage>
