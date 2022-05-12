@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xml:lang="sv">
       <fileDesc>
          <titleStmt>
             <title>Essäer om Bror Barsk och andra dikter, digitaliserad version</title>
@@ -93,7 +93,7 @@
                Titelsidan valdes som ett komplement, för att demonstrera webbsidans blädderfunktion,
                i det fall att ytterligare dikter digitaliseras i framtiden.</p>
          </samplingDecl>
-         <tagDesc>
+         <tagsDecl partial="true">
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="sourceDoc" occurs="2">
                   Används istället för faksimil-elementet, för att inlemma transkriptionen med textens visuella element.
@@ -108,7 +108,10 @@
                   Används för att beteckna avsiktliga skador, för att uppnå en visuell effekt.
                </tagUsage>
             </namespace>
-         </tagDesc>
+         </tagsDecl>
+         <appInfo>
+            <application version="24.1" ident="Oxygen"><desc>Denna TEI-fil har skapats i Oxygen XML Editor 24.1.</desc></application>
+         </appInfo>
       </encodingDesc>
       <profileDesc>
          <langUsage>
